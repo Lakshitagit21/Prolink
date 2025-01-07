@@ -1,0 +1,36 @@
+name: prolink
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+
+dependencies:
+  cloud_firestore: ^5.6.0
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.9.0
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.2
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/icons/
+
+
